@@ -44,7 +44,7 @@ Heliosyn AI also includes **secure authentication** using **JWT and HTTP-only co
 
 # Live Demo
 
-#### 🌐 Access Heliosyn AI live here: [Visit Heliosyn AI]()
+#### 🌐 Access Heliosyn AI live here: [Visit Heliosyn AI](https://heliosyn-ai.vercel.app)
 
 ---
 
