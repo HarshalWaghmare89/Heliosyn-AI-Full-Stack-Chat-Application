@@ -1,0 +1,126 @@
+.prose {
+  color: #e5e7eb;
+  font-size: 16px;
+  line-height: 1.9;
+  word-break: break-word;
+}
+
+.prose > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.prose h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  margin-bottom: 0.9rem;
+}
+
+.prose h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.prose h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.prose p {
+  margin: 14px 0;
+}
+
+.prose strong {
+  color: white;
+  font-weight: 700;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose ul {
+  padding-left: 28px;
+  list-style: disc;
+}
+
+.prose ol {
+  padding-left: 28px;
+  list-style: decimal;
+}
+
+.prose li {
+  margin: 8px 0;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 30px 0;
+}
+.prose blockquote {
+  border-left: 4px solid #7c3aed;
+  padding-left: 18px;
+  color: #bdbdbd;
+  font-style: italic;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+}
+
+.prose th {
+  background: #222;
+  color: white;
+}
+
+.prose td,
+.prose th {
+  border: 1px solid #3a3a3a;
+  padding: 12px;
+}
+
+.prose img {
+  border-radius: 16px;
+  margin: 24px auto;
+  max-width: 100%;
+}
+
+.prose a {
+  color: #60a5fa;
+}
+
+.prose code {
+  font-family: "JetBrains Mono", monospace;
+}
+@media (max-width: 768px) {
+  .prose {
+    font-size: 15px;
+
+    line-height: 1.8;
+  }
+
+  .prose h1 {
+    font-size: 1.6rem;
+  }
+
+  .prose h2 {
+    font-size: 1.4rem;
+  }
+
+  .prose h3 {
+    font-size: 1.2rem;
+  }
+}
