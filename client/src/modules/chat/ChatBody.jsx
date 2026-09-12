@@ -389,33 +389,35 @@ const ChatBody = ({ isGenerating = false }) => {
           aria-label="Scroll to latest message"
           title="Scroll to latest message"
           className="
-            fixed
-            bottom-[145px]
-            left-1/2
-            z-[50]
-            flex
-            h-10
-            w-10
-            -translate-x-1/2
-            items-center
-            justify-center
-            rounded-full
-            border
-            border-neutral-700
-            bg-neutral-900/95
-            text-neutral-300
-            shadow-[0_8px_30px_rgba(0,0,0,0.45)]
-            backdrop-blur-md
-            transition-all
-            duration-200
-            hover:border-violet-500/60
-            hover:bg-neutral-800
-            hover:text-white
-            hover:shadow-[0_8px_35px_rgba(99,102,241,0.25)]
-            active:scale-95
-cursor-pointer
-            sm:bottom-[175px]
-          "
+  fixed
+  bottom-[180px]
+  left-1/2
+  z-40
+  flex
+  h-10
+  w-10
+  -translate-x-1/2
+  items-center
+  justify-center
+  rounded-full
+  border
+  border-neutral-700
+  bg-neutral-900/95
+  text-neutral-300
+  shadow-[0_8px_30px_rgba(0,0,0,0.45)]
+  backdrop-blur-md
+  transition-all
+  duration-200
+  hover:border-violet-500/60
+  hover:bg-neutral-800
+  hover:text-white
+  hover:shadow-[0_8px_35px_rgba(99,102,241,0.25)]
+  active:scale-95
+  cursor-pointer
+
+  sm:bottom-[190px]
+  lg:bottom-[175px]
+"
         >
           <ArrowDown size={19} strokeWidth={2.5} />
         </button>
