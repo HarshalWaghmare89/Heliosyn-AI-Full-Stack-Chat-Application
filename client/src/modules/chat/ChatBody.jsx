@@ -389,7 +389,7 @@ const ChatBody = ({ isGenerating = false }) => {
           aria-label="Scroll to latest message"
           title="Scroll to latest message"
           className="
-  fixed
+  absolute
   bottom-[180px]
   left-1/2
   z-40
