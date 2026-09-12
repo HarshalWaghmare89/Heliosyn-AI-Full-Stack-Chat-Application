@@ -16,6 +16,7 @@ const SidebarFooter = ({ isCollapsed, onOpenProfile }) => {
   return (
     <div
       className="
+        shrink-0
         border-t
         border-neutral-800
         p-2.5

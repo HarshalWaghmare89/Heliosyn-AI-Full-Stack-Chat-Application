@@ -55,7 +55,7 @@ const Sidebar = ({
           z-50
 
           flex
-          h-screen
+          h-dvh
           flex-col
 
           border-r
