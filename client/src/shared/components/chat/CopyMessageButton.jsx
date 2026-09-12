@@ -29,26 +29,24 @@ const CopyMessageButton = ({ text = "" }) => {
       title={copied ? "Copied" : "Copy message"}
       aria-label={copied ? "Message copied" : "Copy message"}
       className="
-        inline-flex
-        h-7
-        items-center
-        gap-1.5
-        rounded-md
-        px-2
-        text-[11px]
-        text-neutral-500
-        opacity-0
-        transition-all
-        duration-150
-        hover:bg-neutral-800
-        hover:text-neutral-200
-        group-hover:opacity-100
-        focus:opacity-100
-        focus:outline-none
-        focus:ring-1
-        focus:ring-neutral-600
-        cursor-pointer
-      "
+  inline-flex
+  h-7
+  items-center
+  gap-1.5
+  rounded-md
+  px-2
+  text-[11px]
+  text-neutral-500
+  opacity-100
+  transition-all
+  duration-150
+  hover:bg-neutral-800
+  hover:text-neutral-200
+  focus:outline-none
+  focus:ring-1
+  focus:ring-neutral-600
+  cursor-pointer
+"
     >
       {copied ? (
         <>
