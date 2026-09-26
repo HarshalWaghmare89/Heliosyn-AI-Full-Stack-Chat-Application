@@ -7,7 +7,6 @@
 ## 📖 Table of Contents
 
 - 🤖 [Overview](#overview)
-- 🎥 [Demo Video](#demo-video)
 - 🌐 [Live Demo](#live-demo)
 - 🚀 [Features](#features)
 - 🧠 [AI Models](#ai-models)
@@ -33,12 +32,6 @@ The platform supports **AI conversations**, **multiple Gemini models**, **chat h
 Heliosyn AI also includes **secure authentication** using **JWT and HTTP-only cookies**, **email/password login**, and **Google OAuth**. The application uses a backend API to communicate with the Gemini API, keeping sensitive API credentials away from the frontend.
 
 > 🤖 _Built with the **MERN stack and Google Gemini API**, Heliosyn AI demonstrates practical full-stack development, AI API integration, authentication, database management, responsive UI design, and real-world application architecture._
-
----
-
-# Demo Video
-
-#### 🎥 Explore Heliosyn AI in action: Coming soon
 
 ---
 
